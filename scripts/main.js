@@ -1,12 +1,3 @@
-/* Loading */
-$(window).load(function() {
-  $(".spinner").delay(500).fadeOut();
-  $("#mask").delay(500).fadeOut("slow");
-  $("body").addClass("loaded");
-});
-
-
-
 /*----------------------------------------------
 P L A Y E R   I N T R O
 ------------------------------------------------*/
