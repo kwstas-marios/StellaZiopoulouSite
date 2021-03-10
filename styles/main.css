@@ -1879,7 +1879,7 @@ p.quote-post {
 
 h2.title {
   margin: auto;
-  font-family: 'Anton', sans-serif;
+  font-family: 'GFS Didot', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
@@ -1912,14 +1912,7 @@ h2.title.inverse:after {
   background: #FFF;
 }
 
-h2.title:after {
-  content: '';
-  display: block;
-  background: #000;
-  height: 5px;
-  width: 100%;
-  margin-top: 10px;
-}
+
 
 .btn {
   font-family: 'Roboto', sans-serif;
@@ -2046,7 +2039,9 @@ h2.title:after {
 
 .biography p {
   font-size: 15px;
-  font-family: "cousine", monospace;
+  font-family: 'GFS Didot', serif;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .biography .cita {
@@ -3724,13 +3719,14 @@ header .navbar-brand img {
 }
 
 .primary-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family:  'GFS Didot', serif;
   text-transform: uppercase;
   font-weight: 800;
   color: #eaeaea;
   font-size: 50px;
   line-height: 50px;
   letter-spacing: 10px;
+  text-shadow: 2px 2px 0px rgba(127, 127, 127, 1);
 }
 
 @media (min-width: 992px) {
@@ -3759,7 +3755,7 @@ header .navbar-brand img {
 }
 
 .subtitle-text {
-  font-family: 'montserrat', sans-serif;
+  font-family: 'GFS Didot', serif;
   text-transform: uppercase;
   font-weight: 300;
   text-shadow: 2px 2px #000;
