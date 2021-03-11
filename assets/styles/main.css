@@ -5014,3 +5014,12 @@ img {
 		display:block;
 	}
 }
+
+@media (max-width:768px)
+{
+	h2.title
+	{
+		font-size:32px;
+		line-height:32px;
+	}
+}
