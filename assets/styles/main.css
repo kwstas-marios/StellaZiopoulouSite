@@ -4996,4 +4996,21 @@ img {
 		display:block;
 	}
 }
-
+.subtitle-text-small
+{
+	display:none;
+}
+.subtitle-text-large
+{
+	display:block;
+}
+@media (max-width:990px)
+{
+	.subtitle-text-large{
+		display:none;
+	}
+	.subtitle-text-small
+	{
+		display:block;
+	}
+}
