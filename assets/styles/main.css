@@ -3891,7 +3891,7 @@ header .navbar-brand img {
 .navbar-default .navbar-nav > li.active > a:hover,
 .navbar-default .navbar-nav > li.active > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-  color: gray;
+  color: rgb(204, 190, 190);
 }
 
 .navbar-default .navbar-nav > li.active > a:after,
